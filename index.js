@@ -5,12 +5,14 @@ import reactPlugin from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import jsxA11y from "eslint-plugin-jsx-a11y";
+import unusedImports from "eslint-plugin-unused-imports";
+import perfectionist from "eslint-plugin-perfectionist";
 
 export default [
   {
     ignores: ["dist", "build", "node_modules", ".next"],
   },
-  
+
   js.configs.recommended,
   ...tseslint.configs.recommended,
 
@@ -32,6 +34,8 @@ export default [
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
       "jsx-a11y": jsxA11y,
+      "unused-imports": unusedImports,
+      perfectionist,
     },
 
     rules: {
