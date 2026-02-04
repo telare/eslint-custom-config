@@ -1,7 +1,7 @@
 {
-  "name": "@tl21/eslint-config",
+  "name": "@tl21/eslint-custom",
   "description": "Personal ESLint config for React/Next.js + TypeScript projects with flat config support",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "files": [
     "index.js"
