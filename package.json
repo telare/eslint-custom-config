@@ -4,7 +4,8 @@
   "version": "1.1.2",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js", 
+    "index.d.ts"
   ],
   "publishConfig": {
     "access": "public"
