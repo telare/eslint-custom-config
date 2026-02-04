@@ -1,4 +1,4 @@
-# @tl21/eslint-config
+# @tl21/eslint-custom
 
 My personal concise ESLint configuration for modern **React/Next.js + TypeScript** projects.
 Designed for **Flat Config** (ESLint 9+).
@@ -23,11 +23,11 @@ Designed for **Flat Config** (ESLint 9+).
 Install the package as a development dependency:
 
 ```bash
-npm install -D @tl21/eslint-config
+npm install -D @tl21/eslint-custom
 # or
-pnpm add -D @tl21/eslint-config
+pnpm add -D @tl21/eslint-custom
 # or
-yarn add -D @tl21/eslint-config
+yarn add -D @tl21/eslint-custom
 
 ```
 
@@ -38,7 +38,7 @@ Create or edit your `eslint.config.js` file at the root of your project. Import 
 **Basic Setup**
 
 ```javascript
-import myConfig from "@tl21/eslint-config";
+import myConfig from "@tl21/eslint-custom";
 
 export default [
   ...myConfig,
@@ -51,7 +51,7 @@ export default [
 If you need to change specific rules (e.g., allowing `console.log`), add a new config object *after* spreading the shared config:
 
 ```javascript
-import myConfig from "@tl21/eslint-config";
+import myConfig from "@tl21/eslint-custom";
 
 export default [
   ...myConfig,
